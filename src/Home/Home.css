@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .Home-parent{
+        background-image: url('./../assets/wave-haikei.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .navbar{
+        border-bottom: 2px solid white;
+        box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.2);
+    }
+    .loginBtn{
+        border: 1px solid white;
+    }
+}
