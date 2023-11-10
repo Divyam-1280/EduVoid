@@ -4,6 +4,11 @@
 @tailwind utilities;
 
 @layer components{
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
     .Home-parent{
         background-image: url('./../assets/wave-haikei.svg');
         background-repeat: no-repeat;
@@ -33,10 +38,10 @@
         color: white;
     }
     .contact-btn{
-        
-        background: whitesmoke;
+        border: 2px solid rgba(255, 255, 255, 0.642);
+        background: #096b2f;
         font-family: 'Faustina', serif;
-        color: black;
+        color: white;
         box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.604);
         transition: all .3s ease;
     }
@@ -61,6 +66,7 @@
             clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
             transition:cubic-bezier(0.175, 0.885, 0.32, 1.275);
             transition-duration: .55s;
+            overflow-x: hidden;
         }
     
         .navlist.active{

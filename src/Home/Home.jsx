@@ -8,7 +8,7 @@ import 'aos/dist/aos.css';
 function Home() {
   Aos.init();
   return (
-    <div className="Home-parent h-[100vh] w-full ">
+    <div className="Home-parent h-[100vh] w-full relative">
       <Header/>
       <div class="bg-transparent ml-5 mt-20 text-white z-20 overflow-clip">
             <div class="top-con flex ml-10 my-5 md:text-2xl text-white text-4xl" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000"vdata-aos-once="false"  data-aos-mirror="true"><h3 className="text-4xl">Eduvoid</h3>

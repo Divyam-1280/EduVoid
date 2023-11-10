@@ -29,7 +29,7 @@ function Header() {
   })
 
   return (
-    <div className="navbar h-24 w-full bg-[#096b2f] flex justify-between">
+    <div className="navbar h-24 w-full bg-[#096b2f] flex justify-between overflow-x-hidden">
       <div className="logo w-28 ml-8 pt-1">
         <img src={logo} alt="logo" />
       </div>
