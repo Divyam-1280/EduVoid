@@ -1,5 +1,6 @@
 
 import './App.css'
+import Courses from './Courses/Courses'
 import Home from './Home/Home'
 import Vision from './Vision/Vision'
 
@@ -9,6 +10,7 @@ function App() {
     <div>
       <Home/>
       <Vision/>
+      <Courses/>
     </div>
   )
 }

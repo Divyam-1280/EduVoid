@@ -35,9 +35,9 @@ function Header() {
       </div>
       <ul id="tester" className="flex gap-3 md:gap-12 my-auto text-white text-lg navlist">
         <li><a href="#" className="active">Home</a></li>
-        <li><a href="#Vision">Our Vision</a></li>
-        <li><a href="#Team">Team</a></li>
-        <li><a href="#Course">Courses</a></li>
+        <li><a href="#Vision">Vision</a></li>
+        <li><a href="#Team">Courses</a></li>
+        <li><a href="#Course">Team</a></li>
       </ul>
       <div className="loginBtn rounded-md bg-transparent hover:bg-green-600 hover:scale-105 transition-all duration-200 ease-in-out flex justify-center items-center h-9 w-20 my-auto text-white cursor-pointer mr-8">
         Login
