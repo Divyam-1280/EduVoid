@@ -42,6 +42,7 @@
       }
       
       .plan .title {
+        margin-top: 0.5rem;
         font-weight: 600;
         font-size: 1.25rem;
         color: #00610b;
